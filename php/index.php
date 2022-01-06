@@ -18,3 +18,5 @@ if ($conn) {
 } else {
     print "<h1>Connection Fail</h1>";
 }
+
+print "<h6>PHP version: " . phpversion() . "</h6>";
